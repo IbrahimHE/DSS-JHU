@@ -3,11 +3,9 @@ title: "Linear regression model example using Shiny"
 author: "Ibrahim H. Elkhidir"
 date: "6th September 2021"
 output:
-  ioslides_presentation: default
   html_document:
     number_sections: yes
     toc: yes
-  slidy_presentation: default
 mode: selfcontained
 job: Reproducible Pitch Presentation
 subtitle: Developing Data Products Course Project
