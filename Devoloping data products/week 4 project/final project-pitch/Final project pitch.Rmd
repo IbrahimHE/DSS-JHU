@@ -1,0 +1,58 @@
+---
+title: "Gapminder Data Visualization using Shiny and Plotly"
+author: "Halici"
+date: "18th October 2019"
+output:
+  ioslides_presentation: default
+  html_document:
+    number_sections: yes
+    toc: yes
+  slidy_presentation: default
+mode: selfcontained
+job: Reproducible Pitch Presentation
+subtitle: Developing Data Products Course Project
+---
+
+
+## Introduction
+
+This presentation is part of the Developing Data Products Coursera.org course project submission.
+
+It is an R Presentation generated with RStudio.
+
+The Shiny application pitched by this presentation is at https://beta.rstudioconnect.com/connect/#/apps/16d99bb1-f2d5-4842-98c5-07a0cd629538/access
+
+The Shiny app source code is available at https://github.com/nihathalici/Developing-Data-Products-course--Assignment-Week-4-Shiny-Application-and-Reproducible-Pitch/tree/master/Shiny 
+
+
+## Application Overview
+
+- The application is written in Shiny which is a web application framework for R
+- The source code consists of two files: server.R and ui.R
+- server.R includes the the server logic of a Shiny web application
+- ui.R includes the the user-interface definition, which uses the sidebarLayout template
+- The application is hosted on Rstudio's shiny server in the cloud (Shinyapps.io)
+
+## How it works? - I | The Application contains: Left Panel
+
+- Label the main titel using a textInput
+- Change/determine the size of the plot points using a numericInput
+- Add a line of best fit using a checkboxInput
+- Select data options using selectInput
+- The app compare the models when choosing all data points against one selecting only part of it.
+
+
+## How it works? - II | The Application contains: Main Panel
+
+There are two sections in main panel as below:
+
+- Plot region: This displays plot for corresponding dataframe
+- Model results section: This displays model result of the choosed dataframe and compare
+
+![](example1.png)
+
+## Ready to give it a try?
+
+Use the Shiny app at https://beta.rstudioconnect.com/connect/#/apps/16d99bb1-f2d5-4842-98c5-07a0cd629538/access
+
+Get the app source code at https://github.com/Ibrahimhassan94/Developing-Data-Products-course--Assignment-Week-4-Shiny-Application-and-Reproducible-Pitch
